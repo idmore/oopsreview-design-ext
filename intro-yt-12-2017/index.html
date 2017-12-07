@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>...</title>
+        <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed" rel="stylesheet">
+        <style>
+            body, html{
+                margin: 0;
+                font-family: 'Encode Sans Condensed', sans-serif;
+            }
+            body{
+                background: #000;
+                color: hsla(0, 0%, 100%, 0.431);
+            }
+            .wrapper{
+                height: 100vh;
+                width: .3em;
+                background: hsla(0, 0%, 100%, 0.431);
+                display: block;
+                margin-left: 5em
+            }
+            .wrapper .list-available{
+                list-style: none;
+                padding-left: 2em;
+            }
+            .wrapper .list-available li{
+                cursor: pointer;
+                padding: .5em 0;
+                letter-spacing: 1.1;
+                font-size: 2em;
+                transition: all .3s ease;
+            }
+            .wrapper .list-available li:hover{
+                font-size: 2.8em;
+                color: #FFF;
+                padding: .5em 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <span class="border-left"></span>
+            <ul class="list-available">
+                <li>Android</li>
+                <li>iOS</li>
+                <li>Linux</li>
+                <li>MacOS</li>
+                <li>Windows</li>
+                <li>Web</li>
+                <li>Cloud</li>
+            </ul>
+        </div>
+    </body>
+</html>
